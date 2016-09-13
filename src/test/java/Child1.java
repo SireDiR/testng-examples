@@ -49,7 +49,7 @@ public class Child1 extends Base{
     }
 
     @AfterMethod
-    public void afterMethod_Child_1(XmlSuite xmlTest){
+    public void afterMethod_Child_1(){
         all();
     }
 

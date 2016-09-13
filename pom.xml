@@ -31,6 +31,12 @@
                     <includes>
                         <include>**/**.java</include>
                     </includes>
+                    <!--<properties>-->
+                        <!--<property>-->
+                            <!--<name>surefire.testng.verbose</name>-->
+                            <!--<value>10</value>-->
+                        <!--</property>-->
+                    <!--</properties>-->
                 </configuration>
                 <!--<configuration>-->
                     <!--<suiteXmlFiles>-->
@@ -39,6 +45,7 @@
                 <!--</configuration>-->
             </plugin>
         </plugins>
+
     </build>
 
 </project>
